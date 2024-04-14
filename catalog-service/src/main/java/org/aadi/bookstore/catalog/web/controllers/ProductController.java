@@ -16,9 +16,8 @@ public class ProductController {
     private final ProductService productService;
 
     @GetMapping
-    PagedResult<Product> getProducts(@RequestParam (name = "page", defaultValue = "1") int pageNo){
+    PagedResult<Product> getProducts(@RequestParam(name = "page", defaultValue = "1") int pageNo) {
         return productService.getProducts(pageNo);
-
     }
 
     @GetMapping("/{code}")
@@ -28,5 +27,4 @@ public class ProductController {
                 .map(ResponseEntity::ok)
                 .orElseThrow(() -> ProductNotFoundException.forCode(code));
     }
-
 }

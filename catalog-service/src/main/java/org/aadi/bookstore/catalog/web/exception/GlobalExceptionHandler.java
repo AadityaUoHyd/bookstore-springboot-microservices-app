@@ -2,7 +2,6 @@ package org.aadi.bookstore.catalog.web.exception;
 
 import java.net.URI;
 import java.time.Instant;
-
 import org.aadi.bookstore.catalog.domain.ProductNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ProblemDetail;

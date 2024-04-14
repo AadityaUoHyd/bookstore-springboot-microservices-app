@@ -7,7 +7,6 @@ import static org.hamcrest.Matchers.is;
 
 import io.restassured.http.ContentType;
 import java.math.BigDecimal;
-
 import org.aadi.bookstore.catalog.AbstractIT;
 import org.aadi.bookstore.catalog.domain.Product;
 import org.junit.jupiter.api.Test;

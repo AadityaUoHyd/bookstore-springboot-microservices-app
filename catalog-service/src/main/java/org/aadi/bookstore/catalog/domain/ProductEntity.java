@@ -10,11 +10,10 @@ import jakarta.persistence.Table;
 import jakarta.validation.constraints.DecimalMin;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;
+import java.math.BigDecimal;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import java.math.BigDecimal;
 
 @Entity
 @Table(name = "products")
@@ -42,5 +41,4 @@ class ProductEntity {
     @NotNull(message = "Product price is required") @DecimalMin("0.1")
     @Column(nullable = false)
     private BigDecimal price;
-
 }

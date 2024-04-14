@@ -1,14 +1,14 @@
 package org.aadi.bookstore.catalog.domain;
 
-import lombok.RequiredArgsConstructor;
 import java.util.Optional;
+import lombok.RequiredArgsConstructor;
+import org.aadi.bookstore.catalog.ApplicationProperties;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import org.aadi.bookstore.catalog.ApplicationProperties;
 
 @Service
 @Transactional
