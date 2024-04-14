@@ -39,7 +39,7 @@ We will build a BookStore application using Spring Boot, Spring Cloud, and Docke
 - Deployment to Kubernetes (May be try to implement later at 'K8s kind cluster' or EKS)
 
 ## Local Development Setup
-- Install Java 21. Recommend using SDKMAN for managing Java versions.
+- Install Java 21.
 - Install Docker Desktop
 - Install IntelliJ IDEA or any of your favorite IDE
 - Install Postman or any REST Client
